@@ -10,4 +10,23 @@
   body {
     @apply bg-zinc-900;
   }
+
+  .dark-mode {
+    background-color: #cbbeb5;
+    color: #333333;
+  }
+
+  .dark-mode h1,
+  .dark-mode h2,
+  .dark-mode h3,
+  .dark-mode h4,
+  .dark-mode h5,
+  .dark-mode h6,
+  .dark-mode p,
+  .dark-mode span,
+  .dark-mode a {
+    color: #333333;
+  }
 }
+
+/* 추가적인 다크 모드 스타일을 여기에 작성하세요 */

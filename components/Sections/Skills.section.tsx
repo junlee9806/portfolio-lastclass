@@ -2,10 +2,10 @@ import { BsArrowRightShort } from "../Misc/Icons.collection";
 
 const Skills = () => {
   return (
-    <div className="my-16 px-3 font-sen text-white" id="skills">
+    <div className="px-3 my-16 text-white font-sen" id="skills">
       <p className="text-3xl font-bold text-white">Skills & Uses</p>
 
-      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
+      <div className="flex flex-col my-8 font-medium text-md md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">NextJS</span>
@@ -26,14 +26,14 @@ const Skills = () => {
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Figma </span>
-          &nbsp;as my designing tool
+          <span className="text-white">Gamedesign </span>
+          &nbsp;as my designing skills
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Express JS </span>
-          &nbsp;as my API framework
+          <span className="text-white">unity </span>
+          &nbsp;as my Gameprograming tools
         </p>
       </div>
 
